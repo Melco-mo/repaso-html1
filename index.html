@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Edad</th>
+        </tr>
+        <tr>
+            <td>85855</td>
+            <td>Maria</td>
+            <td>18</td>
+        </tr>
+        <tr>
+            <td>85855</td>
+            <td>Jose</td>
+            <td>21
+            </td>
+        </tr>
+    </table>
+
+
+    <!--Enlaces-->
+
+    <a href="https://www.google.es/" target="_blank">google</a>
+
+    <!--Lista desordenada-->
+
+    <ul>
+        <li>uno</li>
+        <li>dos</li>
+        <li>tres</li>
+    </ul>
+
+    <!--Image-->
+    <div class="imagen">
+        <img src="./assets/Buho.jpg" alt="Buho" width="600" height="400">
+    </div>
+
+    <!--Formulario: caja de texto, text area, radio button, select 3 opc, button, checkbox-->
+    <form>
+        <label for="name">Nombre:</label>
+        <input type="text" class="formulario1" id="name" name="name" placeholder="Escribe tu nombre">
+        <br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Contraseña">
+        <br> <br>
+        <label for="comments">Comentarios</label>
+        <textarea name="comments"> </textarea>
+    </form>
+
+    <form>
+        <p>Hobbies</p>
+        <div class="flex-container">
+            <div class="radio">
+                <input type="radio" name="hobbies" id="musica">
+                <label for="hobbies">Musica</label>
+            </div>
+            <div class="radio">
+                <input type="radio" name="hobbies" id="baile">
+                <label for="hobbies">Baile</label>
+            </div>
+            <div class="radio">
+                <input type="radio" name="hobbies" id="baile">
+                <label for="hobbies">Baile</label>
+            </div>
+        </div>
+    </form>
+    <hr>
+    <form>
+        <input type="checkbox" checked>
+        <label for="">Verdadero</label>
+        <input type="checkbox" id="" name="" value="">
+        <label for="">Falso</label>
+    </form>
+    <hr>
+    <label for="cars">Choose a car:</label>
+    <select>
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="opel">Opel</option>
+        <option value="audi">Audi</option>
+    </select>
+    <br>
+    <button>submit</button>
+    <br><br>
+    <form>
+        <input type="button" value="submit">
+        <input type="submit" value="submit2"> <!--Para formulario ejerce un acción-->
+    </form>
+
+
+</body>
+
+</html>

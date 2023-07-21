@@ -1,0 +1,21 @@
+body {
+    background-color: grey;
+    color: aliceblue;
+}
+
+.formulario1 {
+    display: block;
+}
+
+/*bajar elemento*/
+
+.flex-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.imagen {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 200px;
+}
